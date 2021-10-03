@@ -11,7 +11,7 @@ const app = express()
 app.use(
   '/.netlify/functions',
   proxy({
-    target: 'http://localhost:9000',
+    target: 'https://clever-kilby-8626ba.netlify.app/',
     pathRewrite: {
         '^/\.netlify/functions':''
     }
